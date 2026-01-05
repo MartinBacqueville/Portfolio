@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(235,235,235);
+    margin: 0;
+    text-align: center;
+    font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
+    color: green;
+}
+
+.logo {
+    font-size: 5rem;
+    font-weight: 600;
+    color: green;
+    text-decoration: none;
+    line-height: 1.1;
+    font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
+    text-align: center;
+    text-justify: auto;
+}
+
+nav {
+    background-color: rgb(200,200,200);
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.langages {
+    display: flex;
+    background-color: rgb(235,235,235);
+    justify-content: space-around;
+    align-items: left;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-justify: auto;
+}
+
+.langages img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+.langages div {
+    text-align: center;
+    text-justify: auto;
+}
+
+.boite {
+    border: 2px solid green;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 1.1rem;
+    background-color: rgb(200,200,200);
+    font-size: large;
+}
+
+.ide {
+    display: flex;
+    background-color: rgb(235,235,235);
+    justify-content: space-around;
+    align-items: left;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-justify: auto;
+}
+
+.ide img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+.ide div {
+    text-align: center;
+    text-justify: auto;
+}
+.projets {
+    display: flex;
+    background-color: rgb(235,235,235);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-justify: auto;
+}
+
+.projets img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.projets .boite {
+    width: 25%;
+    height: 350px;
+}
+
+a {
+    color: green;
+}
+
+.projets div {
+    text-align: center;
+    text-justify: auto;
+    margin-top: 10px;
+}
+
+section {
+    justify-content: center;
+
+}
+
+footer p {
+    text-align: center;
+    text-justify: auto;
+    background-color: rgb(200,200,200);
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.cvdiv {
+    background-color: rgb(235,235,235);
+}
+
+.cv {
+    width: 400px;
+    height: 600px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
